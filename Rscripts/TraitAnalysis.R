@@ -20,3 +20,4 @@ df <- data.frame(trait_comb = comb_vec, nspp = nspp_vec)
 # check
 sum(!is.na(trait_table$TLP) & !is.na(trait_table$P50_VC))
 df[6,]
+hist(trait_table$TLP)
