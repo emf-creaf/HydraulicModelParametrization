@@ -1,5 +1,5 @@
 
-trait_table<- readr::read_delim("Data/TestTableForCorrespondaceMaxtrix.csv", 
+trait_table<- readr::read_delim("Data/TestTableForCorrespondaceMaxtrix2.csv", 
                          delim = ";", escape_double = FALSE, trim_ws = TRUE)
 trait_pa <- !is.na(trait_table)
 
